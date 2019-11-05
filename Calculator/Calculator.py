@@ -1,5 +1,5 @@
 from PopulationMean import mean
-from Median import median
+from Median import median 
 class Calculator:
     result = 0
 
