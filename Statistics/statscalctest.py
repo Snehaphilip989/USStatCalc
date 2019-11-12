@@ -27,8 +27,8 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(statistics.popstddev(), 1.707825)
 
     def test_stat_var_calc(self):
-        data = [5,3,2,4,1]
-        self.assertEqual(statistics.popvariance(data), 2)
+        val = [5,3,1,2,4]
+        self.assertEqual(statistics.popvariance(val), 2)
 
 if __name__ == '__main__':
     unittest.main()
