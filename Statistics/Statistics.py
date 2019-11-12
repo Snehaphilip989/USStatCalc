@@ -2,7 +2,7 @@ from PopulationMean import mean
 from Median import median
 from Mode import mode
 from Popstd import stddev
-from PopVar import Popvar
+from PopVar import Popvar 
 class Statistics:
     result = 0
 
